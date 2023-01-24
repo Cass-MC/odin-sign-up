@@ -1,6 +1,12 @@
+@font-face {
+    font-family: Norse;
+    src: url("Norse-Bold.otf");
+}
+
 html, body {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
   }
 
 .page {
@@ -11,9 +17,14 @@ html, body {
 }
 
 .sidebar {
-    background-color: red;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
     height: 100%;
     width: 30%;
+    display: flex;
+    flex-direction: column;
 }
 
 .formContainer {
