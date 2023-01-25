@@ -21,7 +21,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    height: 105%;
+    height: 111%;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -77,16 +77,37 @@ html, body {
 
 .formInputs input:focus {
     border: 1px solid blue;
-    box-shadow: 0 4px 8px rgb(0 0 0 / 0.3);}
+    box-shadow: 0 4px 8px rgb(0 0 0 / 0.3);
+}
+
+.formInputs input:invalid {
+    border: 1px solid red;
+}
 
 .foot {
     background-color: rgb(238, 238, 238);
     width: 100%;
     height: 25%;
+    padding: 20px;
 }
 
 .foot button {
-    
+    background-color: #596D48;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgb( 0 0 0 /0.5);
+}
+
+.foot button:active {
+    background-color: #28321f;
+}
+
+.foot .login {
+    padding-top: 30px;
 }
 
 .logo {
